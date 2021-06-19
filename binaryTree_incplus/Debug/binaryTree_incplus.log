@@ -1,0 +1,21 @@
+﻿Build started 12/14/2018 5:29:10 AM.
+     1>Project "H:\study\programs\Data Structuer\BinaryTree_inc++\binaryTree_incplus\binaryTree_incplus\binaryTree_incplus.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\binaryTree_incplus.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Functions.cpp
+         Functions.cpp
+     1>h:\study\programs\data structuer\binarytree_inc++\binarytree_incplus\binarytree_incplus\functions.cpp(26): warning C4700: uninitialized local variable 'ptr' used
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\study\programs\Data Structuer\BinaryTree_inc++\binaryTree_incplus\Debug\binaryTree_incplus.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\binaryTree_incplus.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\study\programs\Data Structuer\BinaryTree_inc++\binaryTree_incplus\Debug\binaryTree_incplus.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\study\programs\Data Structuer\BinaryTree_inc++\binaryTree_incplus\Debug\binaryTree_incplus.lib" /MACHINE:X86 Debug\binaryTree_incplus.exe.embed.manifest.res
+         Debug\Functions.obj
+         Debug\mainfile.obj
+     1>mainfile.obj : error LNK2005: "struct Node * root" (?root@@3PAUNode@@A) already defined in Functions.obj
+     1>H:\study\programs\Data Structuer\BinaryTree_inc++\binaryTree_incplus\Debug\binaryTree_incplus.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "H:\study\programs\Data Structuer\BinaryTree_inc++\binaryTree_incplus\binaryTree_incplus\binaryTree_incplus.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.58
